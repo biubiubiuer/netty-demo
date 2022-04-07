@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="ubuntu@175.178.242.121" type="ssh/sftp" uuid="dc898bc3-73eb-4d70-ac5a-7da4fd090f10">
+        <config>
+          <option name="projectRootOnTarget" value="/home/ubuntu/netty-demo" />
+          <option name="serverName" value="ubuntu@175.178.242.121" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="remotePath" value="/usr/lib/jvm/jdk1.8.0_311/lib" />
+              </VolumeState>
+            </option>
+            <option name="homePath" value="/usr/lib/jvm/jdk1.8.0_311" />
+            <option name="javaVersionString" value="1.8.0_311" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
